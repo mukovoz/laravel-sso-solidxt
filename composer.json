@@ -1,0 +1,15 @@
+{
+    "name": "solidxt/sso",
+    "description": "SSO implementation",
+    "autoload": {
+        "psr-4": {
+            "Solidxt\\Sso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleg Mukovoz"
+        }
+    ],
+    "require": {}
+}
