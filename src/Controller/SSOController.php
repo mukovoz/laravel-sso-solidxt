@@ -35,6 +35,6 @@ class SSOController extends Controller
         }
 
         \Illuminate\Support\Facades\Auth::loginUsingId($user[$user->getKeyName()]);
-        return redirect('/');
+        return redirect($request->get('url') ?? '/');
     }
 }

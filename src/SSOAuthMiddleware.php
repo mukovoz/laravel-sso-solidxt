@@ -13,7 +13,7 @@ class SSOAuthMiddleware extends Authenticate
         throw new AuthenticationException(
             'Unauthenticated.',
             $guards,
-            $request->expectsJson() ? null : config('sso.url')
+            $request->expectsJson() ? null : config('sso.url')."?url=".$request->url()
         );
     }
 
