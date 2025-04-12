@@ -1,7 +1,7 @@
 {
     "name": "solidxt/laravel-sso",
     "description": "Laravel SSO Implementation",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "autoload": {
         "psr-4": {
             "Solidxt\\Sso\\": "src/"
