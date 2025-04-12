@@ -14,7 +14,7 @@ class SSOServiceProvider extends ServiceProvider{
 
         $this->publishes([
             __DIR__.'/config/sso.php' => config_path('sso.php'),
-        ],'laravel-assets');
+        ]);
 
 
     }
